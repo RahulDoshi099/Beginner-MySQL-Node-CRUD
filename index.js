@@ -162,7 +162,7 @@ app.get("/users", verifyToken, (req, res) => {
   });
 });
 
-// //Log-In User
+// //Log-In User without token 
 // app.post("/login", (req, res) => {
 //   const { username, password } = req.body;
 //   // const query = "SELECT * FROM userDetails WHERE username = ? ";
